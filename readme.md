@@ -17,5 +17,6 @@ to run do:
 
 then in postman test:
 - http://localhost:8888/s1rates/default/main
+- http://localhost:8888/s1rates/dev/main
 - http://localhost:8888/s2rates/default/main
 - http://localhost:8888/s2rates/dev/main
