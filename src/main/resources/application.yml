@@ -6,5 +6,14 @@ spring:
       server:
         git:
           uri: https://github.com/front-end-developer/microservice-spring-cloud-server-config-via-git
+          # search under the directory station/*, in this repository
           search-paths:
-            - station*
+          - station*
+          repos:
+            perf:
+              # this is what we look for to trigger this repository */perf
+              pattern: '*/perf'
+              uri: https://github.com/front-end-developer/microservice-spring-cloud-server-config-via-git-to-another-2
+              # search under the sub directories, station/*, in this repository
+              search-paths:
+                - 'station*'

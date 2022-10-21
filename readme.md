@@ -10,6 +10,8 @@ In this exercise I search to pull all files under the folders starting with the 
     search-paths: station*
 
 
+In example setting also created a repo called 'perf', also searches anything under the directory named 'station/*' from an additional repo called:
+https://github.com/front-end-developer/microservice-spring-cloud-server-config-via-git-to-another-2
 
 to run do: 
 
